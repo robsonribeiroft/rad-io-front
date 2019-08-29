@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    vertical-align: bottom;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container button{
+    background-color: transparent;
+    border: none;
+}
+
+.container button:hover{
+    cursor: pointer;
+}
+
+.container .content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 15px;
+    padding-top: 80px;
+    font-family: Trocchi;
+    font-size: 36px;
+}
+
+.container .content img{
+    padding-right: 15px;
+}
