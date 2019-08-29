@@ -23,9 +23,7 @@ const contentStyle = {
 export default function RadioInfo() {
     return(
         <div style={styleSheet}>
-            <button style={{backgroundColor: 'transparent',
-                            border: 'none',
-                            cursor: 'pointer',}}>
+            <button>
                 <div style={ contentStyle }>
                     <p style={{fontSize: '40px',}}>Universitária</p>
                     <p>FM 107.9</p>

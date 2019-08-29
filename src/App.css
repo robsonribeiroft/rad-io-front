@@ -12,3 +12,9 @@ html, body, #root {
 h1, p{
     color: #fff;
 }
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
