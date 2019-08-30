@@ -1,18 +1,26 @@
-/* .container {
-    
+.container{
     display: flex;
     flex: 1;
     padding-top: 15px;
-    justify-content: center;
-    align-items: flex-start;
-    vertical-align: top;
+    justify-content: flex-start;
     flex-direction: row;
-} */
+}
 
-.container .content{
+.container:hover{
+    cursor: pointer;
+}
+
+.container img{
+    width: 18px;
+    height: 18px;
+}
+
+.container .content{  
     display: flex;
     flex-direction: column; 
     align-items: flex-end; 
     flex: 1;
     font-family: Trocchi;
+    font-size: 18px;
+    padding-top: 10px;
 }
