@@ -13,27 +13,51 @@ h1, p{
     color: #fff;
 }
 
-.App {
+.App{
+    width: 100%;
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.App .PlayerSection {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-image: url('../src/assets/backgroundImg.jpg');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.App .slogan{
+.App .PlayerSection .slogan{
     display: flex; 
     flex: 2;  
-    flex-direction: column; 
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: Anton;
     padding-top: 75px;
     font-size: 80px;
+}
+
+.App .GridSection{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.App .GridSection .pgDetail{
+    display: flex;
+    flex: 1
+}
+
+.App .GridSection .pgList{
+    display: flex;
+    flex: 1
 }
 
 button{

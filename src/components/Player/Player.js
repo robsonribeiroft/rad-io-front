@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import playImg from '../assets/playButtonRounded.svg'
-import pauseImg from '../assets/pauseButtonRounded.svg'
+import playImg from '../../assets/playButtonRounded.svg'
+import pauseImg from '../../assets/pauseButtonRounded.svg'
 import './Player.css'
 
 export default function Player() {

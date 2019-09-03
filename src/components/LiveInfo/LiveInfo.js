@@ -1,5 +1,5 @@
 import React from 'react';
-import noteImg from '../assets/musicNote.svg'
+import noteImg from '../../assets/musicNote.svg'
 import './LiveInfo.css'
 
 export default function LiveInfo(){

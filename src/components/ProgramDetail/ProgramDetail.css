@@ -1,0 +1,18 @@
+.programDetail{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #f44336;
+    width: 50%;
+    padding: 15px;
+}
+
+.programDetail p{
+    font-family: Trocchi;
+    margin-top: 8px;
+}
+
+.programDetail .name{
+    font-family: Anton;
+    font-size: 36px;
+}

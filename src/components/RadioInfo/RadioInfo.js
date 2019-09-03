@@ -1,5 +1,5 @@
 import React from 'react';
-import infoImg from '../assets/infoButtonRounded.svg'
+import infoImg from '../../assets/infoButtonRounded.svg'
 import './RadioInfo.css'
 
 export default function RadioInfo() {

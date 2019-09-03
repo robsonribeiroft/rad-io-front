@@ -1,0 +1,19 @@
+.programList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+
+.programList .itemList{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 16px;
+    background: #F44336;
+    width:650px;
+    margin-top: 1px;
+    justify-content: center;
+    font-family: Anton;
+    align-content: center;
+    text-align: center;
+}
