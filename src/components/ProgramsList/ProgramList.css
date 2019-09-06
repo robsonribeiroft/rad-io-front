@@ -8,12 +8,17 @@
 .programList .itemList{
     border: 1px solid;
     border-radius: 5px;
+    border-color: #F44336;
     padding: 16px;
     background: #F44336;
     width:650px;
-    margin-top: 1px;
+    margin-top: 15px;
     justify-content: center;
     font-family: Anton;
     align-content: center;
     text-align: center;
+}
+
+.programList .itemList:hover{
+    cursor: pointer;
 }

@@ -44,20 +44,11 @@ h1, p{
     font-size: 80px;
 }
 
-.App .GridSection{
+.GridSection{
     display: flex;
     flex-direction: row;
     width: 100%;
-}
-
-.App .GridSection .pgDetail{
-    display: flex;
-    flex: 1
-}
-
-.App .GridSection .pgList{
-    display: flex;
-    flex: 1
+    background-color: #EEEEEE;
 }
 
 button{

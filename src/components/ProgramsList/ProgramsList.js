@@ -2,7 +2,9 @@ import React from 'react'
 import './ProgramList.css'
 
 
-export default function ProgramsList() {
+export default function ProgramsList(props) {
+
+    const [triggerProgram] = props
 
     const list = ['Program Radio A', 'Program Radio B', 
             'Program Radio C', 'Program Radio D', 
@@ -10,10 +12,14 @@ export default function ProgramsList() {
             'Program Radio G', 'Program Radio H', ]
 
     return(
-        <div className="programList">
+        <div className="containerPgList">
+            
+            <div className="programList">
             {list.map( item =>
-                <p className="itemList" key={item}>{item}</p>
+                <p onClick={()=>triggerProgram(item)} className="itemList" key={item}>{item}</p>
             )}
         </div>
+        </div>
+        
     )
 }

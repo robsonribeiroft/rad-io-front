@@ -1,0 +1,9 @@
+.GridSection .pgDetail{
+    display: flex;
+    flex: 1
+}
+
+.GridSection .pgList{
+    display: flex;
+    flex: 1
+}
