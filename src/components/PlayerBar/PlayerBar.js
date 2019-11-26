@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import playImg from '../../assets/playButtonRounded.svg'
 import pauseImg from '../../assets/pauseButtonRounded.svg'
-import './Player.css'
+import './PlayerBar.css'
 
-export default function Player() {
+export default function PlayerBar() {
 
     const [playing, setPlaying] = useState(false)
 
@@ -19,8 +19,11 @@ export default function Player() {
                 <audio id='stream' hidden loop src="http://200.129.35.230:8081/;"></audio>
                 <img src={playing ? pauseImg : playImg} alt='button'/> 
             </button>
-        </div>
-            
-    )
 
+            <div className="liveInfo">
+                <p>Universitária 107.9</p>
+                <p className="subLiveInfo">ao vivo</p>
+            </div>
+        </div>
+    )
 }

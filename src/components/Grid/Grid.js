@@ -4,12 +4,12 @@ import ProgramList from '../ProgramsList/ProgramsList'
 
 export default function Grid() {
 
-    const [program, setProgram] = useState("Sem valor")
+    const [count, setCount] = useState(0)
 
     return(
         <div className="GridSection">
-            <ProgramDetail currentProgram={program} className="pgDetail"/>
-            <ProgramList triggerProgram={setProgram} className="pgList"/>
+            <ProgramDetail className="pgDetail" count={count}/>
+            <ProgramList className="pgList" count={count} increaseCount={(count) => setCount({count})}/>
         </div>
     )
     

@@ -2,9 +2,7 @@ import React from 'react'
 import './ProgramList.css'
 
 
-export default function ProgramsList(props) {
-
-    const [triggerProgram] = props
+export default function ProgramsList({count, increaseCount}) {
 
     const list = ['Program Radio A', 'Program Radio B', 
             'Program Radio C', 'Program Radio D', 
@@ -16,7 +14,7 @@ export default function ProgramsList(props) {
             
             <div className="programList">
             {list.map( item =>
-                <p onClick={()=>triggerProgram(item)} className="itemList" key={item}>{item}</p>
+                <p onClick={() => increaseCount(count + 1)} className="itemList" key={item}>{item}</p>
             )}
         </div>
         </div>

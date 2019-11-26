@@ -1,0 +1,47 @@
+.SideMenu{
+    height: 100%;
+    background-color: #840000;
+    width: 61px;
+    position: fixed;
+    z-index: 999;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    overflow-y: scroll;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    flex-wrap: nowrap;
+}
+
+.SideMenu:hover{
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    transition: width 0.5s;
+}
+
+.SideMenu::-webkit-scrollbar {
+    display: none;
+}
+
+
+.SideMenu .ItemMenu{
+    display: flex;
+    flex-direction: row;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+}
+
+.SideMenu .ItemMenu:hover{
+    cursor: pointer;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.SideMenu .ItemMenu img{
+    width: 30px;
+    height: 30px;
+    margin-right: 16px;
+}
+
